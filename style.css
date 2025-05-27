@@ -1,0 +1,119 @@
+body{
+    background-image: url(19187761.jpg);
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+#bg.vdo{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+
+}
+
+.center-div{
+    color: white;
+    margin-top: 48%;
+    margin-left: 90%;
+    border: 5px solid cyan;
+    height: 1200px;
+    width: 2200px;
+    backdrop-filter: blur(10px);
+    justify-content: center;
+    border-radius: 25px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 80px cyan,
+                0px 0px 40px cyan inset;
+}
+
+.center-div h1{
+    justify-content: center;
+    align-items: center;
+    margin-left: 0%;
+    font-size: 100px;
+    text-align: center;
+}
+
+.center-div input[type="text"] {
+    height: 80px;
+  width: 40%;        /* increase width */
+  padding: 10px;     /* increase height */
+  border: 1px solid gray;
+  border-radius: 35px;
+  margin-left: 29%;
+  font-size: 70px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.center-div input[type="text"]:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 90px grey;
+}
+
+.center-div input[type="password"] {
+    height: 80px;
+  width: 40%;        /* increase width */
+  padding: 10px;     /* increase height */   /* make text bigger */
+  border: 1px solid gray;
+  border-radius: 35px;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 70px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.center-div input[type="password"]:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 90px gray;
+}
+
+.center-div input[type="button"]{
+    height: 100px;
+    width: 10%;
+    padding: 0px;
+    border: 5px solid white;
+    border-radius: 30px;
+    margin-left: 45%;
+    margin-top: 100px;
+    font-size: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+    background-color: rgb(181, 150, 93);
+    font-size: 50px;
+    line-height: 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.center-div input[type="button"]:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 60px orange;
+}
+
+p{
+    font-size: 60px;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
